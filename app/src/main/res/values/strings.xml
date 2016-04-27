@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">掌上社团</string>
+
+    <!--splash-->
+    <string name="splash_name1">我的大学</string>
+    <string name="splash_name2"> 我 的 社 团 ！ </string>
+    <string name="author">吴朝晖</string>
+
+
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="first_title">官方网站</string>
+    <string name="first_content">http://www.wzh.com</string>
+    <string name="second_title">QQ</string>
+    <string name="second_content">1158663782</string>
+    <string name="third_title">邮箱</string>
+    <string name="third_content">1158663782@qq.com</string>
+    <string name="fourth_title">手机</string>
+    <string name="fourth_content">18120155739</string>
+
+
+     <string name="news_one_title">Dallas police HQ attack:
+        Suspect believed killed during standoff</string>
+    <string name="news_one_desc">and ows the dark van ramming the nose of
+        a police car before retreating in reverse</string>
+    <string name="setting_items1">退出</string>
+
+
+</resources>

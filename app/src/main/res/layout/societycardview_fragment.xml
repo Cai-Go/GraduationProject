@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/society_cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="3dp">
+
+    <LinearLayout
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="#90cbe3"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/society_content_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="192dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/test1"
+            app:civ_border_color="#c1ffd4"
+            app:civ_border_width="3dp" />
+
+
+        <TextView
+            android:id="@+id/society_title_textview"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="4dp"
+            android:background="#00dedede"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="我是标题！"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

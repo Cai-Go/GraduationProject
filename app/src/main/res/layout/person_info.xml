@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5e5e5"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="192dp"
+        android:background="#03A9F4"
+        android:elevation="4dp"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/person_info_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:src="@mipmap/ic_launcher"
+            app:civ_border_color="#ffffff"
+            app:civ_border_width="1dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="学校"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/school_name_tv"
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_weight="8"
+                android:gravity="center"
+                android:paddingLeft="4dp"
+                android:text="南京师范大学中北学院"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="姓名"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/name_tv"
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_weight="8"
+                android:gravity="center"
+                android:paddingLeft="4dp"
+                android:text="吴朝晖"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="学号"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/studentId_tv"
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_weight="8"
+                android:gravity="center"
+                android:paddingLeft="4dp"
+                android:text="18122726"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="性别"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/sex_tv"
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_weight="8"
+                android:gravity="center"
+                android:paddingLeft="4dp"
+                android:text="男"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="专业"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/cademy_tv"
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_weight="8"
+                android:gravity="center"
+                android:paddingLeft="4dp"
+                android:text="电商务子信息"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="年级"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/grade_tv"
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_weight="8"
+                android:gravity="center"
+                android:paddingLeft="4dp"
+                android:text="大四"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="社团"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/society_tv"
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_weight="8"
+                android:gravity="center"
+                android:paddingLeft="4dp"
+                android:text="程序员协会"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="手机"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/phoneNumber_tv"
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_weight="8"
+                android:gravity="center"
+                android:paddingLeft="4dp"
+                android:text="1812015739"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="邮箱"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/email_tv"
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_weight="8"
+                android:gravity="center"
+                android:paddingLeft="4dp"
+                android:text="1158663782@qq.com"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

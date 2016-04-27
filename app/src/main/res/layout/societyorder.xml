@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?><!--社团申请界面-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp">
+
+                <EditText
+                    android:id="@+id/societyorser_id_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="学号:"
+                    android:maxLines="1"
+                    android:textColor="#0092cb" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp">
+
+                <EditText
+                    android:id="@+id/societyorser_name_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="姓名:"
+                    android:maxLines="1"
+                    android:textColor="#0092cb" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp">
+
+                <EditText
+                    android:id="@+id/societyorser_school_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="学校:"
+                    android:maxLines="1"
+                    android:textColor="#0092cb" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp">
+
+                <EditText
+                    android:id="@+id/societyorser_zhuanye_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="专业:"
+                    android:maxLines="1"
+                    android:textColor="#0092cb" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp">
+
+                <EditText
+                    android:id="@+id/societyorser_reson_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="申请原因:"
+                    android:maxLines="4"
+                    android:textColor="#0092cb" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

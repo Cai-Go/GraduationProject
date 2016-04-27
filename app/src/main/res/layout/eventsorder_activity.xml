@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="68dp"
+            android:gravity="center_vertical"
+            android:text="姓        名"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/eventsorder_studentName_et"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginLeft="8dp"
+            android:backgroundTint="#00000000"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="68dp"
+            android:gravity="center_vertical"
+            android:text="学        号"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/eventsorder_studentId_et"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginLeft="8dp"
+            android:backgroundTint="#00000000"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="68dp"
+            android:gravity="center_vertical"
+            android:text="活动名称"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/eventsorder_eventName_et"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginLeft="8dp"
+            android:backgroundTint="#00000000"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="68dp"
+            android:gravity="center_vertical"
+            android:text="手        机"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/eventsorder_phoneNumber_et"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginLeft="8dp"
+            android:backgroundTint="#00000000"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

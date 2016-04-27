@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wzh.www.graduationproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+
+    <!-- 用于更新 -->
+    <meta-data
+        android:name="BMOB_CHANNEL"
+        android:value="Channel ID" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/splash_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        //启动页
+        <activity
+            android:name="com.wzh.www.activity.SplashActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- *********************Bmob自动更新组件****************** -->
+        <activity
+            android:name="cn.bmob.v3.update.UpdateDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+
+        //登录页
+        <activity
+            android:name="com.wzh.www.activity.LoginActivity"
+            android:windowSoftInputMode="adjustResize" />
+        //注册页
+        <activity android:name="com.wzh.www.activity.RegisterActivity" />
+
+        //找回密码页
+        <activity android:name="com.wzh.www.activity.ChangePSDActivity" />
+        //首页
+        <activity android:name="com.wzh.www.activity.MainActivity" />
+        //意见反馈
+        <activity android:name="com.wzh.www.activity.SuggsetionActivity" />
+        //关于我们
+        <activity android:name="com.wzh.www.activity.AboutActivity" />
+        //设置
+        <activity android:name="com.wzh.www.activity.SettingActivity" />
+        //服务条款
+        <activity android:name="com.wzh.www.activity.ProtocolActivity" />
+        //个人信息页面
+        <activity android:name="com.wzh.www.activity.PersonInfoActivity" />
+        //个人信息修改界面
+        <activity android:name="com.wzh.www.activity.PersonInfoEditActivity" />
+        //新闻详情页
+        <activity android:name="com.wzh.www.activity.NewsContentActivity" />
+        //社团详情页
+        <activity android:name="com.wzh.www.activity.SocietyActivity" />
+        //社团申请页
+        <activity android:name="com.wzh.www.activity.SocietyOrderActivity" />
+        //社团动态页
+        <activity android:name="com.wzh.www.activity.SocietyContentActivity" />
+        //活动详情页
+        <activity android:name="com.wzh.www.activity.EventsActivity" />
+        //活动报名页
+        <activity android:name="com.wzh.www.activity.EventsOrderActivity" />
+        //搜索页面
+        <activity android:name="com.wzh.www.activity.SearchActivity" />
+        //新闻评论页面
+        <activity android:name="com.wzh.www.activity.CommentActivity" />
+
+    </application>
+
+
+</manifest>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#03A9F4</color>
+    <color name="colorAccent">#40d2ff</color>
+
+    <color name="blue">#00d4ff</color>
+    <color name="green">#00fe59</color>
+    <color name="white">#fff</color>
+    <!--splash-->
+    <color name="splash_backcolor">#c5f2fe</color>
+    <color name="splash_textcolor1">#09e2fa</color>
+    <color name="splash_textcolor2">#01cec7</color>
+    <color name="author_textcolor">#437bfe</color>
+</resources>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/SocietyOrderStyleLinearLayout"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+
+                <TextView
+                    style="@style/SocietyOrderStyleTextView"
+                    android:text="姓  名" />
+
+                <EditText
+                    android:id="@+id/societysorder_studentName_et"
+                    style="@style/SocietyOrderStyleEditText"
+                    android:layout_marginLeft="8dp"
+                    android:backgroundTint="#83ffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/SocietyOrderStyleLinearLayout"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+
+                <TextView
+                    style="@style/SocietyOrderStyleTextView"
+                    android:text="学  号" />
+
+                <EditText
+                    android:id="@+id/societysorder_studentId_et"
+                    style="@style/SocietyOrderStyleEditText"
+                    android:layout_marginLeft="8dp"
+                    android:backgroundTint="#83ffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/SocietyOrderStyleLinearLayout"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+
+                <TextView
+                    style="@style/SocietyOrderStyleTextView"
+                    android:text="性  别" />
+
+                <EditText
+                    android:id="@+id/societysorder_sex_et"
+                    style="@style/SocietyOrderStyleEditText"
+                    android:layout_marginLeft="8dp"
+                    android:backgroundTint="#83ffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/SocietyOrderStyleLinearLayout"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+
+                <TextView
+                    style="@style/SocietyOrderStyleTextView"
+                    android:text="社  团" />
+
+                <EditText
+                    android:id="@+id/societysorder_societyName_et"
+                    style="@style/SocietyOrderStyleEditText"
+                    android:layout_marginLeft="8dp"
+                    android:backgroundTint="#83ffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/SocietyOrderStyleLinearLayout"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+
+                <TextView
+                    style="@style/SocietyOrderStyleTextView"
+                    android:text="专  业" />
+
+                <EditText
+                    android:id="@+id/societysorder_cademy_et"
+                    style="@style/SocietyOrderStyleEditText"
+                    android:layout_marginLeft="8dp"
+                    android:backgroundTint="#83ffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/SocietyOrderStyleLinearLayout"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+
+                <TextView
+                    style="@style/SocietyOrderStyleTextView"
+                    android:text="年  级" />
+
+                <EditText
+                    android:id="@+id/societysorder_grade_et"
+                    style="@style/SocietyOrderStyleEditText"
+                    android:layout_marginLeft="8dp"
+                    android:backgroundTint="#83ffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/SocietyOrderStyleLinearLayout"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+
+                <TextView
+                    style="@style/SocietyOrderStyleTextView"
+                    android:text="班  级" />
+
+                <EditText
+                    android:id="@+id/societysorder_class_et"
+                    style="@style/SocietyOrderStyleEditText"
+                    android:layout_marginLeft="8dp"
+                    android:backgroundTint="#83ffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/SocietyOrderStyleLinearLayout"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+
+                <TextView
+                    style="@style/SocietyOrderStyleTextView"
+                    android:text="Q    Q" />
+
+                <EditText
+                    android:id="@+id/societysorder_qq_et"
+                    style="@style/SocietyOrderStyleEditText"
+                    android:layout_marginLeft="8dp"
+                    android:backgroundTint="#83ffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/SocietyOrderStyleLinearLayout"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+
+                <TextView
+                    style="@style/SocietyOrderStyleTextView"
+                    android:text="手  机" />
+
+                <EditText
+                    android:id="@+id/societysorder_phoneNumber_et"
+                    style="@style/SocietyOrderStyleEditText"
+                    android:layout_marginLeft="8dp"
+                    android:backgroundTint="#83ffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="理  由"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/societysorder_reason_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:backgroundTint="#83ffff"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

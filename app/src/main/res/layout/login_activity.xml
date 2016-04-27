@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0dfdf"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_title" />
+    <!--图标-->
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/splash_logo" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/login_name_tl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <EditText
+            android:id="@+id/login_name_et"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="学号："
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="#0092cb" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/login_password_tl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <EditText
+            android:id="@+id/login_password_et"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="密码："
+            android:inputType="textPassword"
+            android:maxLength="8"
+            android:maxLines="1"
+            android:textColor="#0092cb" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <!--注册/登录-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/register_btn"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/ripple_bg"
+            android:text="注册"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/ripple_bg"
+            android:text="登录"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <!--找回密码-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:id="@+id/findpsdback_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="找回密码"
+            android:textColor="#1d54f9"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</LinearLayout>

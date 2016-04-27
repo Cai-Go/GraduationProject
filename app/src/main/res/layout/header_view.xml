@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:background="@drawable/nav_header_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/nav_header_circle" />
+
+    <TextView
+        android:id="@+id/headr_tv"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="5dp"
+        android:paddingBottom="16dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="16dp"
+        android:textColor="#d0ffffff"
+        android:text="这个人很懒，什么都没留下..."
+        android:textSize="14sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--活动申请按钮-->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#ca45ff">
+    <!--此处是水纹颜色-->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#480067" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/submit_bg" />
+</ripple>
