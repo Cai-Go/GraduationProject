@@ -95,7 +95,8 @@ public class SearchActivity extends BaseActivity  {
     public void getData() {
         result = searchEt.getText().toString();
         BmobQuery<Society> query = new BmobQuery<>();
-        query.addWhereEqualTo("societyname", result);
+        query.addWhereContains("societyname", result);
+        //模糊查询
         query.findObjects(this, new FindListener<Society>() {
             @Override
             public void onSuccess(List<Society> list) {

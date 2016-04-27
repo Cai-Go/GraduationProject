@@ -4,6 +4,7 @@
     android:id="@+id/search_cardView"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_margin="8dp"
     android:layout_marginBottom="1dp"
     android:clickable="true"
     android:foreground="?android:attr/selectableItemBackground"
@@ -19,6 +20,7 @@
             android:id="@+id/result_image"
             android:layout_width="80dp"
             android:layout_height="80dp"
+            android:layout_margin="8dp"
             android:src="@mipmap/ic_launcher"
             app:civ_border_color="#fff"
             app:civ_border_width="1dp" />
