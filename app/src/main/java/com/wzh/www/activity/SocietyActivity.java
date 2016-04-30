@@ -73,7 +73,6 @@ public class SocietyActivity extends BaseActivity implements View.OnClickListene
 
 
         societyname_tv = (TextView) findViewById(R.id.societyname_tv);
-//        QRCode_iv = (ImageView) findViewById(R.id.QRCode_iv);
         societySchool_tv = (TextView) findViewById(R.id.societySchool_tv);
         societyInfo_tv = (TextView) findViewById(R.id.societyInfo_tv);
         societyleader_tv = (TextView) findViewById(R.id.societyleader_tv);
@@ -95,10 +94,6 @@ public class SocietyActivity extends BaseActivity implements View.OnClickListene
         societyleader_tv.setText(societyleader);
         societymembers_tv.setText(societymembers);
 
-//        Glide.with(SocietyActivity.this)
-//                .load(QRCode)
-//                .fitCenter()
-//                .into(QRCode_iv);
 
         Glide.with(SocietyActivity.this)
                 .load(logo)
@@ -120,7 +115,6 @@ public class SocietyActivity extends BaseActivity implements View.OnClickListene
 
     public void getIntentData() {
         societyname = getIntent().getStringExtra("SocietyName");
-//        QRCode = getIntent().getStringExtra("QRCode");
         societySchool = getIntent().getStringExtra("SchoolName");
         societyInfo = getIntent().getStringExtra("SocietyInfo");
         societyleader = getIntent().getStringExtra("Leader");

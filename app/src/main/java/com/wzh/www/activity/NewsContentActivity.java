@@ -50,6 +50,17 @@ public class NewsContentActivity extends BaseActivity implements View.OnClickLis
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getWindow().requestFeature(Window.FEATURE_NO_TITLE);
+        transform();
+
+        setContentView(R.layout.newscontent_activity);
+
+        //注意getIntentData()和initView()的摆放位置，反了加载不出数据
+        getIntentData();
+        initView();
+
+    }
+
+    private void transform() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             Window window = getWindow();
             window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS
@@ -61,13 +72,6 @@ public class NewsContentActivity extends BaseActivity implements View.OnClickLis
             window.setStatusBarColor(Color.TRANSPARENT);
             window.setNavigationBarColor(Color.TRANSPARENT);
         }
-
-        setContentView(R.layout.newscontent_activity);
-
-        //注意getIntentData()和initView()的摆放位置，反了加载不出数据
-        getIntentData();
-        initView();
-
     }
 
     private void initView() {

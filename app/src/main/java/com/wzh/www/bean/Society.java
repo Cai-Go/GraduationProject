@@ -14,8 +14,17 @@ public class Society extends BmobObject {
     private String info;
     private String schoolname;
     private String logo;
-//    private String qrCode;
     private String societyMember;
+    private String societyLeader;
+
+
+    public String getSocietyLeader() {
+        return societyLeader;
+    }
+
+    public void setSocietyLeader(String societyLeader) {
+        this.societyLeader = societyLeader;
+    }
 
     public String getSocietyMember() {
         return societyMember;
@@ -24,16 +33,6 @@ public class Society extends BmobObject {
     public void setSocietyMember(String societyMember) {
         this.societyMember = societyMember;
     }
-
-    public String getSocirtyLeader() {
-        return socirtyLeader;
-    }
-
-    public void setSocirtyLeader(String socirtyLeader) {
-        this.socirtyLeader = socirtyLeader;
-    }
-
-    private String socirtyLeader;
 
 
     public String getSocietyname() {
@@ -68,11 +67,4 @@ public class Society extends BmobObject {
         this.logo = logo;
     }
 
-//    public String getQrCode() {
-//        return qrCode;
-//    }
-//
-//    public void setQrCode(String qrCode) {
-//        this.qrCode = qrCode;
-//    }
 }

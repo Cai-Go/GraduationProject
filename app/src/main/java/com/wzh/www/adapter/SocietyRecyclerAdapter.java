@@ -63,11 +63,10 @@ public class SocietyRecyclerAdapter extends RecyclerView.Adapter<SocietyFragment
             public void onClick(View v) {
                 Intent intent = new Intent(context, SocietyActivity.class);
                 intent.putExtra("SocietyName", societyList.get(position).getSocietyname());
-//                intent.putExtra("QRCode", societyList.get(position).getQrCode());
                 intent.putExtra("SchoolName", societyList.get(position).getSchoolname());
                 intent.putExtra("SocietyInfo", societyList.get(position).getInfo());
                 intent.putExtra("Logo", societyList.get(position).getLogo());
-                intent.putExtra("Leader", societyList.get(position).getSocirtyLeader());
+                intent.putExtra("Leader", societyList.get(position).getSocietyLeader());
                 intent.putExtra("Member", societyList.get(position).getSocietyMember());
                 context.startActivity(intent);
             }
