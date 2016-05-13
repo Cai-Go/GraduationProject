@@ -59,7 +59,7 @@ public class ResultAdapter extends RecyclerView.Adapter<ResultViewHolder> {
                 intent.putExtra("SchoolName", mList.get(position).getSchoolname());
                 intent.putExtra("SocietyInfo", mList.get(position).getInfo());
                 intent.putExtra("Logo", mList.get(position).getLogo());
-                intent.putExtra("Leader", mList.get(position).getSocirtyLeader());
+                intent.putExtra("Leader", mList.get(position).getSocietyLeader());
                 intent.putExtra("Member", mList.get(position).getSocietyMember());
                 context.startActivity(intent);
             }

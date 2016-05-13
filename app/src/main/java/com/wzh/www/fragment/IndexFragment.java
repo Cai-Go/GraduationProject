@@ -61,6 +61,7 @@ public class IndexFragment extends Fragment {
     public void setUpViews(View upViews) {
         mSwipeRefreshLayout = (SwipeRefreshLayout) upViews.findViewById(R.id.index_swipeRefresh);
         mRecyclerView = (RecyclerView) upViews.findViewById(R.id.index_recyclerView);
+        //使RecyclerView保持固定的大小，该信息被用于自身的优化
         mRecyclerView.setHasFixedSize(true);
         mLinearLayoutManager = new LinearLayoutManager(getActivity());
         mRecyclerView.setLayoutManager(mLinearLayoutManager);

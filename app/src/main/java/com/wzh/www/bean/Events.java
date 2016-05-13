@@ -19,7 +19,6 @@ public class Events extends BmobObject {
     private String eventLocation;
     private String eventLimitMember;
     private String logo;
-    private String currentMember;
 
 
     public String getEventsName() {
@@ -94,11 +93,5 @@ public class Events extends BmobObject {
         this.logo = logo;
     }
 
-    public void setCurrentMember(String currentMember) {
-        this.currentMember = currentMember;
-    }
 
-    public String getCurrentMember() {
-        return currentMember;
-    }
 }

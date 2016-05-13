@@ -53,29 +53,29 @@
     </LinearLayout>
 
     <!--<LinearLayout-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:orientation="horizontal">-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal">-->
 
-        <!--<TextView-->
-            <!--android:id="@+id/QRCode_tip_tv"-->
-            <!--android:layout_width="0dp"-->
-            <!--android:layout_height="38dp"-->
-            <!--android:layout_weight="1"-->
-            <!--android:gravity="center|left"-->
-            <!--android:paddingLeft="4dp"-->
-            <!--android:text="二维码"-->
-            <!--android:textSize="18sp" />-->
+    <!--<TextView-->
+    <!--android:id="@+id/QRCode_tip_tv"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="38dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:gravity="center|left"-->
+    <!--android:paddingLeft="4dp"-->
+    <!--android:text="二维码"-->
+    <!--android:textSize="18sp" />-->
 
-        <!--<ImageView-->
-            <!--android:id="@+id/QRCode_iv"-->
-            <!--android:layout_width="0dp"-->
-            <!--android:layout_height="38dp"-->
-            <!--android:layout_weight="3"-->
-            <!--android:paddingBottom="2dp"-->
-            <!--android:paddingTop="2dp"-->
-            <!--android:src="@mipmap/ic_qrcode"-->
-            <!--android:textSize="18sp" />-->
+    <!--<ImageView-->
+    <!--android:id="@+id/QRCode_iv"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="38dp"-->
+    <!--android:layout_weight="3"-->
+    <!--android:paddingBottom="2dp"-->
+    <!--android:paddingTop="2dp"-->
+    <!--android:src="@mipmap/ic_qrcode"-->
+    <!--android:textSize="18sp" />-->
     <!--</LinearLayout>-->
 
     <LinearLayout
@@ -122,9 +122,10 @@
         <TextView
             android:id="@+id/societyInfo_tv"
             android:layout_width="0dp"
-            android:layout_height="38dp"
+            android:layout_height="wrap_content"
             android:layout_weight="3"
             android:gravity="center|left"
+            android:paddingBottom="4dp"
             android:paddingLeft="4dp"
             android:text="这是舞蹈社"
             android:textSize="18sp" />

@@ -23,9 +23,6 @@ public class BaseActivity extends AppCompatActivity{
     @Override
     public void onCreate(Bundle savedInstanceState, PersistableBundle persistentState) {
         super.onCreate(savedInstanceState, persistentState);
-
-        //获取当前实例的类名，并打印
-        Log.d("BaseActivity",getClass().getSimpleName());
         initConfigure();
     }
 
@@ -52,19 +49,5 @@ public class BaseActivity extends AppCompatActivity{
         startActivity(intent);
     }
 
-    /**
-     * startActivityForResult
-     *
-     * @param context
-     * @param targetActivity
-     * @param requestCode
-     * @param bundle
-     */
-    public void jumpToActivityForResult(Context context, Class<?> targetActivity, int requestCode, Bundle bundle) {
-        Intent intent = new Intent(context, targetActivity);
-        if (null != bundle) {
-            intent.putExtras(bundle);
-        }
-        startActivityForResult(intent, requestCode);
-    }
+
 }
